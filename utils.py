@@ -104,7 +104,7 @@ def plot_posterior_mean(out, time, q, title, save_name):
 
 
 def plot_statistic(result_dict, title, save_name):
-    # Extract methods and values for plotting
+    # Extract methods and values for plots
     methods = list(result_dict.keys())
     values = list(result_dict.values())
 

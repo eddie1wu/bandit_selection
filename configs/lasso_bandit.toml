@@ -1,0 +1,15 @@
+
+# DGP params
+seed = 1
+
+n_train = 200
+dim_factor = 2
+dim_signal = 10
+dim_X = 1000
+sigma_eta = 1.5
+sigma_epsilon = 1
+
+# Model params
+num_iter = 500
+pi_thr = 0.5    # selection threshold
+

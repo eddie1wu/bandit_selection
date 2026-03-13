@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/bdselect/__init__.py
+src/bdselect/gen_data.py
+src/bdselect.egg-info/PKG-INFO
+src/bdselect.egg-info/SOURCES.txt
+src/bdselect.egg-info/dependency_links.txt
+src/bdselect.egg-info/top_level.txt
+src/bdselect/plotting/__init__.py
+tests/test_gen_data.py

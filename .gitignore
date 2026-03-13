@@ -1,3 +1,17 @@
-.Rhistory
+
+results/
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
 .DS_Store
-.idea
+
+# Others
+.Rhistory
+
