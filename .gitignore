@@ -1,5 +1,7 @@
 
+# Results and graphs
 results/
+*.png
 
 # PyCharm
 .idea/

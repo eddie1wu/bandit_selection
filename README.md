@@ -1,10 +1,10 @@
-# Learning feature importance with combinatorial multi-armed bandit
+# Limitations and Opportunities of Bandit Algorithms for Feature Selection
 
-This repository hosts my codes for the project on improving the accuracy and efficiency of learning feature importance in high-dimensional settings with combinatorial multi-armed bandits.
+This repository hosts the replication code for "Limitations and Opportunities of Bandit Algorithms for Feature Selection".
 
-Abstract: Understanding variable importance is a critical task in statistical modelling, especially in high- dimensional data analysis. Traditional methods such as LASSO and tree-based approaches tend to struggle with accuracy, robustness and computational efficiency in feature selection. Building on existing combinatorial bandit frameworks, this paper proposes a novel pure exploration bandit- based method for learning feature importance in a model-agnostic manner. The iterative algorithm is inspired by best-arm identification and integrates permutation importance as a model-agnostic reward mechanism. Numerical simulations show that the approach achieves higher accuracy and faster convergence compared to existing methods, and can adapt to both offline and online settings. Additionally, applying the framework to empirical asset pricing demonstrates that it recovers key predictors of stock returns while efficiently filtering out noises. These results suggest that the proposed method provides a robust, interpretable and computationally scalable solution for learning feature importance.
+Abstract: Feature selection is an important problem in statistical learning. This paper studies the performance of bandit-based feature selection and compares it with stability selection. Theories and simulation results show that bandit selection does not generally outperform stability selection for signal recovery and may suffer from high false positive rates, par- ticularly in settings with correlated features or omitted variables. Nevertheless, bandit methods enjoy advantages in high-dimensional settings by allocating computational effort to promising regions of feature space and by adaptively handling combinatorial subset selection when exhaustive search is infeasible. We then discuss the strong identifiability condition under which bandit-based methods consistently select the set of true features, and propose a top-two Thompson sampling variant designed for pure exploration settings. Finally, we apply our method to the empirical asset pricing study of Gu et al. (2020) and obtain similar conclusions regarding signal importance.
 
-Running order:
+Running order (to be updated):
 
 -   Numerical simulations: run_rf.py -\> run_convergence.py -\> run_online.py
 
